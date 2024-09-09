@@ -1,0 +1,10 @@
+^C:\USERS\AADS\S1\PROJECT1\CMAKEPROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/aads/s1/Project1 -BC:/Users/aads/s1/Project1 --check-stamp-file C:/Users/aads/s1/Project1/CMakeProject/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
