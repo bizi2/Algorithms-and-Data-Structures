@@ -1,0 +1,5 @@
+C:/Users/aads/s1/Project1/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/aads/s1/Project1/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aads/s1/Project1/out/build/x64-debug/CMakeProject/CMakeFiles/CMakeProject.dir
+C:/Users/aads/s1/Project1/out/build/x64-debug/CMakeProject/CMakeFiles/edit_cache.dir
+C:/Users/aads/s1/Project1/out/build/x64-debug/CMakeProject/CMakeFiles/rebuild_cache.dir

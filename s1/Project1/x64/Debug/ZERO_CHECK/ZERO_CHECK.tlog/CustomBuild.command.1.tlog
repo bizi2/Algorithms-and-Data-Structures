@@ -1,0 +1,10 @@
+^C:\USERS\AADS\S1\PROJECT1\CMAKEFILES\1E80B1356E24603C8C158F99CAADE201\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/aads/s1/Project1 -BC:/Users/aads/s1/Project1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/aads/s1/Project1/Project1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
