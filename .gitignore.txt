@@ -1,20 +1,19 @@
-*.obj
-*.pdb
-*.ilk
-*.lib
-*.exp
-*.idb
-*.sbr
-*.ilk
-*.pdb
-*.map
-*.pch
-*.aps
-*.ncb
+# Visual Studio specific files
 *.suo
-*.sdf
-*.opendb
-*.VC.db
-
-# Исключаем временные файлы Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.*
+ipch/
 .vs/
+*.db
+*.tlog/
+*.obj
+*.log
+*.ilk
+*.pdb
+*.idb
+*.lastbuildstate
+x64/
+Debug/
+Release//
