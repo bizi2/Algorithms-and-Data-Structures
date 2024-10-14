@@ -1,2 +1,20 @@
-*.log
-build/*
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.idb
+*.sbr
+*.ilk
+*.pdb
+*.map
+*.pch
+*.aps
+*.ncb
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+
+# Исключаем временные файлы Visual Studio
+.vs/
